@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "format": "prettier \"projects/**/*.{ts,html,md,scss,json}\" --write",
-    "analyze": "ng build --prod --stats-json && webpack-bundle-analyzer ./dist/blog/stats-es2015.json"
+    "analyze": "ng build --prod --stats-json && webpack-bundle-analyzer ./dist/blog/stats.json"
   },
   "private": true,
   "dependencies": {
