@@ -6,21 +6,15 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { RouterModule } from '@angular/router';
 
-
 @NgModule({
-  declarations: [
-    MainLayoutComponent
-  ],
+  declarations: [MainLayoutComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     RouterModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
   ],
-  exports: [
-    MainLayoutComponent
-  ]
+  exports: [MainLayoutComponent],
 })
-export class CoreModule {
-}
+export class CoreModule {}
